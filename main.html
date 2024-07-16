@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSIN - Spanish Space Initiative</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Incluimos Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Virgo+01&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="SPSIN Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#competiciones">Competiciones</a></li>
+                <li><a href="#noticias">Noticias y Eventos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección de Carrusel -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenido a SPSIN</h1>
+                <p>Inspira y educa a la próxima generación de pioneros espaciales en España.</p>
+                <a href="#sobre-nosotros" class="btn">Más Información</a>
+            </div>
+        </section>
+        <!-- Sección de Sobre Nosotros con Tarjetas -->
+        <section id="sobre-nosotros" class="about">
+            <h2>Sobre Nosotros</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Nuestra Misión</h3>
+                    <p>Inspirar a jóvenes a participar en la exploración y desarrollo espacial.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Equipo</h3>
+                    <p>Conoce a los expertos y apasionados detrás de SPSIN.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-history"></i>
+                    <h3>Nuestra Historia</h3>
+                    <p>Desde nuestro inicio hasta hoy, conoce nuestra trayectoria.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Competiciones -->
+        <section id="competiciones" class="competitions">
+            <h2>Competiciones</h2>
+            <p>Detalles sobre las competiciones de diseño de asentamientos espaciales (SDCs).</p>
+            <!-- Aquí podrías agregar un calendario o listado de eventos -->
+        </section>
+        <!-- Sección de Noticias y Eventos -->
+        <section id="noticias" class="news">
+            <h2>Noticias y Eventos</h2>
+            <div class="news-cards">
+                <!-- Tarjeta de noticia 1 -->
+                <div class="news-card">
+                    <img src="images/news1.jpg" alt="Noticia 1">
+                    <h3>Título de Noticia</h3>
+                    <p>Resumen de la noticia...</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <!-- Tarjeta de noticia 2 -->
+                <div class="news-card">
+                    <img src="images/news2.jpg" alt="Noticia 2">
+                    <h3>Título de Noticia</h3>
+                    <p>Resumen de la noticia...</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <!-- Tarjeta de noticia 3 -->
+                <div class="news-card">
+                    <img src="images/news3.jpg" alt="Noticia 3">
+                    <h3>Título de Noticia</h3>
+                    <p>Resumen de la noticia...</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Recursos -->
+        <section id="recursos" class="resources">
+            <h2>Recursos</h2>
+            <p>Material educativo, enlaces útiles y publicaciones.</p>
+        </section>
+        <!-- Sección de Contacto Mejorada -->
+        <section id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SPSIN - Spanish Space Initiative. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
